@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Modbus Title="HS-3-MB-B_v.1.0" Comment="" HintText="" Baudrate="9600" Stopbits="1" Channel="1">
+	<Info templateType="7" minVersion="15031213" />
+	<ModbusCmd Title="Indoor air temperature" Comment="" HintText="" ModbusAddress="3" ModbusCmd="3" ModbusDataType="32" ModbusPollingCycle="5" Unit="&lt;v.1&gt;" Analog="true" Sensor="true" SourceValHigh="100" DestValHigh="1" />
+	<ModbusCmd Title="Outdoor air temperature" Comment="" HintText="" ModbusAddress="4" ModbusCmd="3" ModbusDataType="33" ModbusPollingCycle="5" Unit="&lt;v.1&gt;" Analog="true" Sensor="true" SourceValHigh="100" DestValHigh="1" />
+	<ModbusCmd Title="AC connected" Comment="" HintText="" ModbusAddress="20" ModbusCmd="1" ModbusPollingCycle="1" Unit="" Analog="false" Sensor="true" />
+	<ModbusCmd Title="Screen light" Comment="" HintText="" ModbusAddress="2" ModbusCmd="1" ModbusPollingCycle="5" Unit="" Analog="false" Sensor="true" />
+	<ModbusCmd Title="Sleep mode" Comment="" HintText="" ModbusAddress="8" ModbusCmd="1" ModbusPollingCycle="5" Unit="" Analog="false" Sensor="true" />
+	<ModbusCmd Title="Quiet mode" Comment="" HintText="" ModbusAddress="4" ModbusCmd="1" ModbusPollingCycle="5" Unit="" Analog="false" Sensor="true" />
+	<ModbusCmd Title="Eco mode" Comment="" HintText="" ModbusAddress="6" ModbusCmd="1" ModbusPollingCycle="5" Unit="" Analog="false" Sensor="true" />
+	<ModbusCmd Title="Vertical vanes" Comment="" HintText="" ModbusAddress="10" ModbusCmd="3" ModbusPollingCycle="5" Unit="" Analog="false" Sensor="true" />
+	<ModbusCmd Title="Horizontal vanes" Comment="" HintText="" ModbusAddress="9" ModbusCmd="3" ModbusPollingCycle="300" Unit="" Analog="false" Sensor="true" />
+	<ModbusCmd Title="Active" Comment="" HintText="" ModbusAddress="1" ModbusCmd="1" ModbusPollingCycle="300" Unit="" Analog="false" Sensor="true" />
+	<ModbusCmd Title="Indoor heat exchanger temperature" Comment="" HintText="" ModbusAddress="23" ModbusCmd="4" ModbusPollingCycle="300" Unit="&lt;v.1&gt;" Analog="true" Sensor="true" SourceValHigh="100" DestValHigh="1" />
+	<ModbusCmd Title="Outdoor heat exchanger temperature" Comment="" HintText="" ModbusAddress="24" ModbusCmd="4" ModbusPollingCycle="300" Unit="&lt;v.1&gt;" Analog="true" Sensor="true" SourceValHigh="100" DestValHigh="1" />
+	<ModbusCmd Title="Current compressor power" Comment="" HintText="" ModbusAddress="21" ModbusCmd="4" ModbusPollingCycle="300" Unit="&lt;v.1&gt;" Analog="true" Sensor="true" SourceValHigh="10" DestValHigh="10" />
+	<ModbusCmd Title="Target compressor capacity" Comment="" HintText="" ModbusAddress="22" ModbusCmd="4" ModbusPollingCycle="300" Unit="&lt;v.1&gt;" Analog="true" Sensor="true" SourceValHigh="10" DestValHigh="10" />
+	<ModbusCmd Title="Indoor humidity" Comment="" HintText="" ModbusAddress="27" ModbusCmd="4" ModbusPollingCycle="300" Unit="&lt;v.1&gt;" Analog="true" Sensor="true" SourceValHigh="10" DestValHigh="10" />
+	<ModbusCmd Title="Active" Comment="" HintText="" ModbusAddress="1" ModbusCmd="5" Unit="" Analog="false" Sensor="false" />
+	<ModbusCmd Title="Modes_Loxone" Comment="" HintText="" ModbusAddress="15" ModbusCmd="6" Unit="&lt;v.1&gt;" Analog="true" Sensor="false" SourceValHigh="100" DestValHigh="100" />
+	<ModbusCmd Title="Smart fan speed" Comment="" HintText="" ModbusAddress="8" ModbusCmd="6" Unit="&lt;v.1&gt;" Analog="true" Sensor="false" SourceValHigh="10" DestValHigh="10" />
+	<ModbusCmd Title="Screen light" Comment="" HintText="" ModbusAddress="2" ModbusCmd="5" Unit="" Analog="false" Sensor="false" />
+	<ModbusCmd Title="Temeperature correction" Comment="" HintText="" ModbusAddress="5" ModbusCmd="6" ModbusDataType="1" Unit="&lt;v.1&gt;" Analog="true" Sensor="false" SourceValHigh="1" DestValHigh="100" />
+	<ModbusCmd Title="Sleep mode" Comment="" HintText="" ModbusAddress="8" ModbusCmd="5" Unit="" Analog="false" Sensor="false" />
+	<ModbusCmd Title="Vertical vanes" Comment="" HintText="" ModbusAddress="10" ModbusCmd="6" Unit="" Analog="false" Sensor="false" />
+	<ModbusCmd Title="Quiet mode" Comment="" HintText="" ModbusAddress="4" ModbusCmd="5" Unit="" Analog="false" Sensor="false" />
+	<ModbusCmd Title="Eco mode" Comment="" HintText="" ModbusAddress="6" ModbusCmd="5" Unit="" Analog="false" Sensor="false" />
+	<ModbusCmd Title="Modbus Speed (Service)" Comment="" HintText="" ModbusAddress="110" ModbusCmd="6" Unit="&lt;v.1&gt;" Analog="true" Sensor="false" SourceValHigh="100" DestValHigh="100" />
+	<ModbusCmd Title="Modbus device address (Service)" Comment="" HintText="" ModbusAddress="128" ModbusCmd="6" Unit="&lt;v.1&gt;" Analog="true" Sensor="false" SourceValHigh="100" DestValHigh="100" />
+	<ModbusCmd Title="Horizontal vanes" Comment="" HintText="" ModbusAddress="9" ModbusCmd="6" Unit="" Analog="false" Sensor="false" />
+	<ModbusCmd Title="Active" Comment="" HintText="" ModbusAddress="1" ModbusCmd="5" Unit="" Analog="false" Sensor="false" />
+</Modbus>

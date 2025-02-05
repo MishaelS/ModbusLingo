@@ -1,0 +1,28 @@
+Title: Indoor air temperature
+Title: Outdoor air temperature
+Title: AC connected
+Title: Screen light
+Title: Sleep mode
+Title: Quiet mode
+Title: Eco mode
+Title: Vertical vanes
+Title: Horizontal vanes
+Title: Active
+Title: Indoor heat exchanger temperature
+Title: Outdoor heat exchanger temperature
+Title: Current compressor power
+Title: Target compressor capacity
+Title: Indoor humidity
+Title: Active
+Title: Modes_Loxone
+Title: Smart fan speed
+Title: Screen light
+Title: Temeperature correction
+Title: Sleep mode
+Title: Vertical vanes
+Title: Quiet mode
+Title: Eco mode
+Title: Modbus Speed (Service)
+Title: Modbus device address (Service)
+Title: Horizontal vanes
+Title: Active
